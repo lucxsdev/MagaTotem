@@ -1,71 +1,40 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
 
-export const ProductList = styled.ul`
+export const HomeButtons = styled.ul`
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 20px;
 	list-style: none;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
 
-	li {
-		display: flex;
-		flex-direction: column;
-		background: #fff;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #005281;
+        padding: 15px;
+    }
 
-		border-radius: 4px;
-		padding: 20px;
+    div > span {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
 
-		img {
-			align-self: center;
-			max-width: 250px;
-		}
+    span {
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        font-size: 28px;
+    }
 
-		> strong {
-			font-size: 16px;
-			line-height: 20px;
-			color: #333;
-			margin-top: 5px;
-		}
-
-		> span {
-			font-size: 21px;
-			font-weight: bold;
-			margin: 5px 0 20px;
-		}
-
-		button {
-			background: #7159c1;
-			color: #fff;
-			border: 0;
-			border-radius: 4px;
-			overflow: hidden;
-			margin-top: auto;
-
-			display: flex;
-			align-items: center;
-
-			transition: background 0.2s;
-
-			&:hover {
-				background: ${darken(0.03, '#7159c1')};
-			}
-
-			div {
-				display: flex;
-				align-items: center;
-				padding: 12px;
-				background: rgba(0, 0, 0, 0.1);
-
-				svg {
-					margin-right: 5px;
-				}
-			}
-
-			span {
-				flex: 1;
-				text-align: center;
-				text-transform: uppercase;
-			}
-		}
-	}
+    div > svg {
+        margin-left: 20px;
+        border: 1px solid #027cc5;
+        border-radius: 25px;
+        padding: 7px;
+        background: #027cc5;
+    }
 `;

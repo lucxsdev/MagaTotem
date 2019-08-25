@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { MdAddShoppingCart } from 'react-icons/md';
+import { MdTouchApp } from 'react-icons/md';
 import { formatPrice } from '../../utils/format';
 import api from '../../services/api';
-import { Link } from 'react-router-dom';
-import { Route, Redirect } from 'react-router'
-
 import * as CartActions from '../../store/modules/cart/actions';
+import { Link } from 'react-router-dom';
+
 
 import { ProductList } from './styles';
-import { Text } from './styles';
 
-
-export default function Notebook() {
+export default function SubMenu() {
 	const [products, setProducts] = useState([]);
 
 	const amount = useSelector(state =>
@@ -21,11 +18,12 @@ export default function Notebook() {
 			return sumAmount;
 		}, {})
 	);
+
 	const dispatch = useDispatch();
 
 	useEffect(() => {
 		async function getProducts() {
-			const response = await api.get('products');
+			const response = await api.get('sub-categorias');
 
 			const data = response.data.map(product => ({
 				...product,
@@ -39,18 +37,25 @@ export default function Notebook() {
 	}, []);
 
 	function handleAddProduct(id) {
+		dispatch(CartActions.addToCartRequest(id));
 	}
 
 	return (
 		<ProductList>
 			{products.map(product => (
-				 <Link to={`/detalhe-produto/${encodeURIComponent(product.id)}`}>
-					<li key={product.id}>
-						<img src={product.image} alt={product.title} />
-						<strong>{product.title}</strong>
-						<span>{product.priceFormatted}</span>
-					</li>
+				 <Link to={`/notebook`}>
+
+				<li key={product.id}>
+
+					<button type="button" >
+						
+						<MdTouchApp size={24} color="#FFF" />{' '}
+					
+					<span>	<strong>{product.title}</strong></span>
+					</button>
+				</li>
 				</Link>
+
 			))}
 		</ProductList>
 	);

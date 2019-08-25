@@ -4,6 +4,8 @@ import { MdTouchApp } from 'react-icons/md';
 import { formatPrice } from '../../utils/format';
 import api from '../../services/api';
 import * as CartActions from '../../store/modules/cart/actions';
+import { Link } from 'react-router-dom';
+
 
 import { ProductList } from './styles';
 
@@ -41,15 +43,19 @@ export default function Menu() {
 	return (
 		<ProductList>
 			{products.map(product => (
+				 <Link to={`/sub-menu`}>
+
 				<li key={product.id}>
 
-					<button type="button" onClick={() => handleAddProduct(product.id)}>
+					<button type="button">
 						
 						<MdTouchApp size={24} color="#FFF" />{' '}
 					
-						<span>{product.title}</span>
+						<span><strong>{product.title}</strong></span>
 					</button>
 				</li>
+				</Link>
+
 			))}
 		</ProductList>
 	);

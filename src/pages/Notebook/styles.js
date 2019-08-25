@@ -10,7 +10,7 @@ export const ProductList = styled.ul`
 	li {
 		display: flex;
 		flex-direction: column;
-		background: #fff;
+		background: #005281;
 
 		border-radius: 4px;
 		padding: 20px;
@@ -23,14 +23,16 @@ export const ProductList = styled.ul`
 		> strong {
 			font-size: 16px;
 			line-height: 20px;
-			color: #333;
+			color: #fff;
 			margin-top: 5px;
 		}
 
 		> span {
 			font-size: 21px;
 			font-weight: bold;
-			margin: 5px 0 20px;
+			margin: 20px 0 20px;
+			color: #fff;
+
 		}
 
 		button {
@@ -69,3 +71,4 @@ export const ProductList = styled.ul`
 		}
 	}
 `;
+

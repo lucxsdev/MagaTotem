@@ -28,39 +28,57 @@
   "products": [
     {
       "id": 1,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://drive.google.com/drive/folders/1EXm9Fm1Gfgj3lfrptuJ34u4VDMa5ubpu"
+      "title": "Notebook Dell Inspiron 15 3000 i15-3583-A30P",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 3099.99,
+      "price_parcel": "em até 10x de R$309,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/1.png"
     },
     {
       "id": 2,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "title": "Notebook Dell Inspiron Ultrafino i15-7580-M40S",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 4959.99,
+      "price_parcel": "em até 10x de R$495,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/3.png"
     },
     {
       "id": 3,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Notebook Dell Inspiron 7000 i15-7580-A20S",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 2119.99,
+      "price_parcel": "em até 10x de R$219,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/5.png"
     },
     {
       "id": 4,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Notebook 2 em 1 Dell Inspiron i14-5481-M20",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 1319.99,
+      "price_parcel": "em até 10x de R$131,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/4.png"
+    },
+    {
+      "id": 5,
+      "title": "Notebook Dell Inspiron Ultrafino i15-7580-M40S",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 2419.99,
+      "price_parcel": "em até 10x de R$241,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/1.png"
+    },
+    {
+      "id": 6,
+      "title": "Notebook Dell Inspiron 7000 i15-7580-A20S",
+      "description": "O notebook Inspiron i15-3567-D15P da Dell poderá te ajudar, seja no trabalho, estudo ou entretenimento. Conta com processador Intel Core i3-7020U para potencializar a sua criatividade. Este modelo conta com uma tela de 15,6 HD com antirreflexo, ótima para utilizar em ambientes externos. Amplo armazenamento de 1TB que permite que você arquive seus documentos e fotos sem se preocupar com falta de espaço. Memória RAM de 4GB para manter seu notebook rápido, ágil e ótimo para multitarefas. Acompanha sistema operacional Ubuntu Linux.",
+      "description_resume": "Intel Core i7, HD 2TB, Tela LED de 15.6, Placa de Vídeo 2GB",
+      "price": 1279.99,
+      "price_parcel": "em até 10x de R$127,99",
+      "image": "https://raw.githubusercontent.com/Lucas1604/MagaTotem/master/src/assets/images/produtos/Imagens/6.png"
     }
   ],
 
@@ -96,8 +114,40 @@
       "title": "Móveis"
       
     }
-
-
    
+  ],
+
+  "sub-categorias": [
+    {
+      "id": 1,
+      "title": "Dell"
+      
+    },
+    {
+      "id": 2,
+      "title": "Acer"
+      
+    },
+    {
+      "id": 3,
+      "title": "Positivo"
+      
+    },
+    {
+      "id": 4,
+      "title": "Lenovo"
+      
+    },
+    {
+      "id": 5,
+      "title": "Asus"
+      
+    },
+
+    {
+      "id": 6,
+      "title": "Samsung"
+      
+    }
   ]
 }
