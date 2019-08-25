@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { MdAddShoppingCart } from 'react-icons/md';
+import { MdLocalPrintshop } from 'react-icons/md'; 
+import { MdNewReleases } from 'react-icons/md'; 
 import { formatPrice } from '../../utils/format';
 import api from '../../services/api';
 import { Link } from 'react-router-dom';
@@ -25,6 +26,7 @@ export default function DetalheProduto({match}) {
 	);
 	const dispatch = useDispatch();
 
+	
 	useEffect(() => {
 		async function getProducts() {
 			const response = await api.get('products');
@@ -47,12 +49,24 @@ export default function DetalheProduto({match}) {
 		<ProductList>
 			{product.map(product => (
 				<li key={product.id}>
+					 <Link to={`/popup`}>
+					<a class="print-qr-code">
+						<MdNewReleases size={45} color="#FF6347"/>
+					</a>
+					</Link>
+
+					 <Link to={`/qrcode/${encodeURIComponent(product.title)}`}>
+					<a class="print-qr-code">
+						<MdLocalPrintshop size={45} color="#FFF"/>
+					</a>
+					</Link>
 					<img src={product.image} alt={product.title} />
 				</li>
 			))}
 			{product.map(product => (
 				<li key={product.id}>
 					<strong class="product_title">{product.title}</strong>
+					<strong class="product_price_full">{product.priceFormatted}</strong>
 					<strong class="product_price_parcel">{product.price_parcel}</strong>
 					<strong class="product_description_resume">{product.description_resume}</strong>
 				</li>

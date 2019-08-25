@@ -9,12 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
     return (
         <HomeButtons>
-            <div>
-                <span>Diga-me o que deseja comprar</span>
-				<MdKeyboardVoice size={45} color="#FFF" background="#ddd" />
-            </div>
-            <span>OU</span>
-			
+
 			<Link to={`/menu`}>
             <div>
                 <span>Escolha a seguir o seu produto</span>

@@ -69,6 +69,9 @@ export const ProductList = styled.ul`
 				text-transform: uppercase;
 			}
 		}
+		span.price_parcel {
+			margin: 0!important;
+		}
 	}
 `;
 

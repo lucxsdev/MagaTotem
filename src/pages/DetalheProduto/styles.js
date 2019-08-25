@@ -12,6 +12,11 @@ export const ProductList = styled.ul`
 		grid-template-columns: repeat(1, 1fr)!important;
 	}
 
+	a.print-qr-code {
+		float:right!important;
+		text-align: right!important;
+	}
+
 	li {
 		display: flex;
 		flex-direction: column;
@@ -85,6 +90,11 @@ export const ProductList = styled.ul`
 	li > strong.product_title {
 		font-size: 25px;
 		padding: 10px;
+	}
+	li>.product_price_full {
+		font-size: 25px;
+		padding: 10px;
+		text-decoration: underline!important;
 	}
 	li > strong.product_price_parcel {
 		font-size: 25px;

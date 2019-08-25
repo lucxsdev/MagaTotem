@@ -7,10 +7,7 @@ import Menu from './pages/Menu/index';
 import Notebook from './pages/Notebook/index';
 import SubMenu from './pages/SubMenu/index';
 import DetalheProduto from './pages/DetalheProduto/index';
-
-
-
-
+import Qrcode from './pages/QrCode/index';
 
 
 export default function Routes() {
@@ -22,7 +19,7 @@ export default function Routes() {
 			<Route path="/menu" exact component={Menu} />
 			<Route path="/sub-menu" exact component={SubMenu} />
 			<Route path="/detalhe-produto/:id" exact component={DetalheProduto} />
-
+			<Route path="/qrcode/:id" exact component={Qrcode} />
 		</Switch>
 	);
 }

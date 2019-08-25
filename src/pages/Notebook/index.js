@@ -49,6 +49,7 @@ export default function Notebook() {
 						<img src={product.image} alt={product.title} />
 						<strong>{product.title}</strong>
 						<span>{product.priceFormatted}</span>
+						<span class="price_parcel">{product.price_parcel}</span>
 					</li>
 				</Link>
 			))}
