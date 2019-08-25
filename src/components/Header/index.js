@@ -2,7 +2,8 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 import { Link } from 'react-router-dom';
-import { MdShoppingBasket } from 'react-icons/md';
+import { MdArrowBack } from 'react-icons/md';
+import { MdHelpOutline } from 'react-icons/md';
 import { Container, Cart } from './styles';
 
 import logo from '../../assets/images/logomaga.png';
@@ -14,15 +15,16 @@ export default function Header() {
 			<Link to="/">
 				<img src={logo} alt="" />
 			</Link>
-			<Cart to="/cart">
-				<div>
-					
-					<strong>Bem vindo :)</strong>
-					
-				</div>
-				<MdShoppingBasket size={36} color="#FFF" />
+			<Cart to="/">
+				
+				<MdArrowBack size={45} color="#FFF" />
+				<div>&nbsp;</div>
+				<div>&nbsp;</div>
+				<MdHelpOutline size={45} color="#FFF" />
+
 			</Cart>
 		</Container>
+
 	);
 }
 

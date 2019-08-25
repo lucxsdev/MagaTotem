@@ -30,7 +30,7 @@
       "id": 1,
       "title": "Tênis de Caminhada Leve Confortável",
       "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "image": "https://drive.google.com/drive/folders/1EXm9Fm1Gfgj3lfrptuJ34u4VDMa5ubpu"
     },
     {
       "id": 2,
@@ -67,29 +67,36 @@
   "categorias": [
     {
       "id": 1,
-      "title": "Eletrodomesticos"
+      "title": "Notebooks"
       
     },
     {
       "id": 2,
-      "title": "Eletrodomesticos"
+      "title": "Jogos"
       
     },
     {
       "id": 3,
-      "title": "Eletrodomesticos"
+      "title": "Macbooks"
       
     },
     {
       "id": 4,
-      "title": "Eletrodomesticos"
+      "title": "Impressoras"
       
     },
     {
       "id": 5,
-      "title": "Eletrodomesticos"
+      "title": "Monitores"
+      
+    },
+
+    {
+      "id": 6,
+      "title": "Móveis"
       
     }
+
 
    
   ]
