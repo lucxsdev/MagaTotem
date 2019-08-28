@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 import { HomeButtons } from './styles';
-import { MdKeyboardVoice } from 'react-icons/md';
 import { MdSend } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 

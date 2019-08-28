@@ -7,15 +7,20 @@ import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import { DetalhesJs } from './detalhes'; 
 
-import * as CartActions from '../../store/modules/cart/actions';
-
 import { ProductList } from './styles';
 import { Detalhes } from './styles';
 
-import { Text } from './styles';
+
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 
 export default function DetalheProduto({match}) {
+
 	const [products, setProducts] = useState([]);
 
 	const amount = useSelector(state =>
@@ -49,17 +54,18 @@ export default function DetalheProduto({match}) {
 		<ProductList>
 			{product.map(product => (
 				<li key={product.id}>
-					 <Link to={`/popup`}>
-					<a class="print-qr-code">
-						<MdNewReleases size={45} color="#FF6347"/>
-					</a>
-					</Link>
-
-					 <Link to={`/qrcode/${encodeURIComponent(product.title)}`}>
-					<a class="print-qr-code">
-						<MdLocalPrintshop size={45} color="#FFF"/>
-					</a>
-					</Link>
+					<div>
+						<Link to={`/popup`}>
+						<a class="print-qr-code">
+							<MdNewReleases size={45} color="#FF6347"/>
+						</a>
+						</Link>
+						<Link to={`/qrcode/${encodeURIComponent(product.title)}`}>
+						<a class="print-qr-code m-right">
+							<MdLocalPrintshop size={45} color="#FFF"/>
+						</a>
+						</Link>
+					</div>
 					<img src={product.image} alt={product.title} />
 				</li>
 			))}

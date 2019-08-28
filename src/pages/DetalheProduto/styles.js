@@ -8,6 +8,10 @@ export const ProductList = styled.ul`
 	list-style: none;
 	border-radius: 0px;
 
+	.popup_div {
+		
+	}
+
 	div {
 		grid-template-columns: repeat(1, 1fr)!important;
 	}
@@ -15,6 +19,11 @@ export const ProductList = styled.ul`
 	a.print-qr-code {
 		float:right!important;
 		text-align: right!important;
+		display: inline-block!important;
+	}
+
+	a.print-qr-code.m-right {
+		margin-right: 30px!important;
 	}
 
 	li {
